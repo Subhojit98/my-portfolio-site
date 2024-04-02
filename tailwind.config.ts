@@ -35,6 +35,10 @@ const config = {
       backgroundImage:{
         'background-left' : "url('./assets/Images&Icons/gggrain-4.svg')",
         'background-right' : "url('./assets/Images&Icons/gggrain-11.svg')",
+      },
+      colors: {
+        smalltext: "#62427e",
+        headtext:"#4831d4"
       }
     },
   },
