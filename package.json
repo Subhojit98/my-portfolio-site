@@ -1,9 +1,11 @@
 {
   "name": "my-portfolio-site",
-  "homepage": "https://Subhojit98.github.io/react-gh-pages",
+  "homepage": "https://Subhojit98.github.io/my-portfolio-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
