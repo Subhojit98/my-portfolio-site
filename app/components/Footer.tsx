@@ -2,12 +2,14 @@
 "use client"
 import { motion, useInView } from "framer-motion"
 import { Audiowide } from "next/font/google"
+import { useRouter } from "next/navigation"
 import { useRef } from "react"
 const logoText = Audiowide({ weight: '400', subsets: ["latin"] })
 
 const Footer = () => {
     const ref = useRef(null)
     const isInView = useInView(ref, { once: true })
+    const router = useRouter()
     return (
         <>
             <motion.footer
@@ -37,10 +39,10 @@ const Footer = () => {
                                 <ul
                                     className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
                                 >
-                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> Work</li>
-                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> Self</li>
-                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> Résumé</li>
-                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200">t.me/Subhojit_98</li>
+                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" onClick={() => router.push("/")}> Home</li>
+                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" onClick={() => router.push("/work")}> Work</li>
+                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> <a target="_blank" href={"https://drive.google.com/file/d/1a133a1bC6gFbsgh8ax4cTsHp-vJ_O12b/view?usp=sharing"}>Résumé</a></li>
+                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" ><a target="_blank" href={"https://t.me/Subhojit_98"}>t.me/Subhojit_98</a></li>
                                 </ul>
                             </div>
                             <br />

@@ -6,6 +6,10 @@ import { useEffect, useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import Lenis from '@studio-freight/lenis'
 
+import { Poppins, Raleway } from "next/font/google"
+const popins = Poppins({ weight: "400", subsets: ["latin"] })
+
+const raleway = Raleway({ weight: "400", subsets: ["latin"] })
 const Hero = () => {
 
 
@@ -47,12 +51,13 @@ const Hero = () => {
                         animate={{ opacity: 1, x: 0 }}
                         className="flex flex-col justify-center items-center w-full h-full gap-y-10">
 
-                        <div className="w-[80%] sm:w-[75%] text-[#c0f164] mt-20">
+                        <div className="w-[80%] sm:w-[75%] text-[#c0f164] mt-20" style={raleway.style}>
                             <h1 className="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold ">Frontend <br /> Developer<span className="text-white">.</span></h1>
                             <p className="text-xl sm:text-sm xl:text-lg text-white mt-5 w-[95%] sm:w-[80%] text-start leading-snug sm:leading-tight mb-14 sm:mb-1">I like to craft solid and  scalable frontend products <br className="hidden xl:block" />with great user experiences</p>
                         </div>
 
-                        <div className="w-[80%] sm:w-[75%] flex text-white gap-x-5 sm:gap-x-10 text-[0.70rem] xl:text-sm sm:text-xs leading-snug xl:relative xl:top-20">
+                        <div className="w-[80%] sm:w-[75%] flex text-white gap-x-5 sm:gap-x-10 text-[0.70rem] xl:text-sm sm:text-xs leading-snug xl:relative xl:top-20"
+                            style={popins.style}>
                             <p className="xl:w-[30%]">Skilled in crafting robust web applications using cutting-edge tools, libraries, and frameworks.</p>
                             <p className="xl:w-[30%]">These empower me to craft responsive, visually appealing and modern web experiences.</p>
                         </div>
@@ -87,7 +92,7 @@ const Hero = () => {
                         <Patterns />
                     </div>
                     <figure className="absolute z-30">
-                        <Image src={MyImage} alt="Subhajit's portfolio image" className="w-56 h-56 lg:w-72 lg:h-72 xl:w-80 xl:h-80" width={80} height={80} />
+                        <Image src={MyImage} alt="Subhajit's portfolio image" className="w-56 h-56 lg:w-72 lg:h-72 xl:w-80 xl:h-80" />
                     </figure>
                     <div className="w-56 h-56 border-white border-[1.5px] absolute ml-12 mt-10 lg:w-72 lg:h-72 xl:w-80 xl:h-80"></div>
                 </motion.section>

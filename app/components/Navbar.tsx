@@ -7,6 +7,13 @@ import {
     SheetContent,
     SheetTrigger,
 } from "@/components/ui/sheet"
+import { useRouter } from "next/navigation"
+import { Chakra_Petch, Poppins, Raleway, Rubik } from "next/font/google"
+const font = Rubik({ weight: "400", subsets: ["latin"] })
+const font3 = Poppins({ weight: "400", subsets: ["latin"] })
+
+const font2 = Chakra_Petch({ weight: "400", subsets: ["latin"] })
+const font4 = Raleway({ weight: "400", subsets: ["latin"] })
 
 const NavBar = () => {
 
@@ -14,6 +21,7 @@ const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
     const [scrollPercentage, setScrollPercentage] = useState<number>(0)
 
+    const router = useRouter()
     const handleMenu = () => {
         setIsMenuClicked(!isMenuClicked)
         setIsMenuOpen(true)
@@ -41,6 +49,13 @@ const NavBar = () => {
 
     }, [scrollPercentage])
 
+    const pushToHome = () => {
+        router.push("/")
+    }
+    const pushToWork = () => {
+        router.push("/work")
+    }
+
     return (
         <>
             <nav className="w-full absolute top-10 xl:top-14 z-40">
@@ -56,7 +71,7 @@ const NavBar = () => {
                                 <path d="M3.61 10.13L9.66 13.16C10.41 13.54 10.89 14.31 10.89 15.15V20.8701C10.89 21.7001 10.02 22.2301 9.28 21.8601L3.23 18.83C2.48 18.45 2 17.68 2 16.84V11.12C2 10.29 2.87 9.76005 3.61 10.13Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M20.39 10.13L14.34 13.16C13.59 13.54 13.11 14.31 13.11 15.15V20.8701C13.11 21.7001 13.98 22.2301 14.72 21.8601L20.77 18.83C21.52 18.45 22 17.68 22 16.84V11.12C22 10.29 21.13 9.76005 20.39 10.13Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <span className="text-[#c4f36e] font-extrabold leading-8 text-[1.65rem] xl:text-3xl">すbhjiト</span>
+                            <span className={`text-[#c4f36e] font-extrabold leading-8 text-[1.65rem] xl:text-3xl `} style={font4.style}>すbhjiト</span>
 
                         </div>
                     </li>
@@ -65,22 +80,23 @@ const NavBar = () => {
                             className="flex relative items-center justify-center" onClick={handleMenu}>
                             <div className="gap-y-3 lg:flex hidden flex-col items-end z-50 cursor-pointer group" >
 
-                                <span className={`block h-[2px] w-10 origin-center  transition-transform bg-indigo-700 ${isMenuClicked && " translate-y-[8px] rotate-[46deg] w-10"}`}></span>
+                                <span className={`block h-[2px] w-10 origin-center  transition-transform bg-indigo-700 ${isMenuClicked && " translate-y-[8px] rotate-[46deg] w-8"}`}></span>
                                 <span className={`block h-[2px] w-8 origin-center bg-orange-500 transition-transform ${isMenuClicked && "w-10 -translate-y-1 -rotate-45"}`}></span>
                             </div>
                         </div>
+
                         {/* desktop nav menu ->  */}
                         <div className="hidden lg:block z-50" >
                             <div className={`bg-white absolute -top-2 right-14  w-full lg:w-[23vw] h-full lg:h-[73vh] ${isMenuClicked ? "scale-up-tr" : isMenuOpen ? " scale-up-bl" : "hidden"} items-center justify-center flex shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]`}>
-                                <div className={`flex flex-col w-[70%] h-[70%] ${isMenuClicked && "scale-up-ver-bottom"}`}>
+                                <div className={`flex flex-col w-[70%] h-[70%] ${isMenuClicked && "scale-up-ver-bottom"}`} style={font.style}>
                                     <span className="uppercase text-[#FF8400] font-semibold opacity-60 tracking-widest">explore &nbsp; me</span>
 
-                                    <ul className="flex flex-col gap-y-3 text-indigo-600 mt-7">
-                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">My Work</li>
+                                    <ul className="flex flex-col gap-y-3 text-indigo-600 mt-7" style={font3.style}>
+                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToHome}>Home</li>
                                         <hr />
-                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">My Self</li>
+                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToWork}>My Work</li>
                                         <hr />
-                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">My Résumé</li>
+                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1a133a1bC6gFbsgh8ax4cTsHp-vJ_O12b/view?usp=sharing" target="_blank">My Résumé</a></li>
                                         <hr />
                                     </ul>
                                     <span className="uppercase text-[#FF8400] font-semibold opacity-60 mt-10 tracking-widest">Bid me hello</span>
@@ -88,7 +104,7 @@ const NavBar = () => {
 
                                     <ul className="flex flex-col gap-y-4 text-indigo-600 mt-7">
                                         <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">hello@subhajit.dev</li>
-                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">t.me/Subhojit_98</li>
+                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a target="_blank" href="https://t.me/Subhojit_98">t.me/Subhojit_98</a></li>
                                     </ul>
 
                                     <ul className="flex gap-10 w-full mt-10 ml-0.5">
@@ -118,7 +134,7 @@ const NavBar = () => {
                                         className="group flex cursor-pointer items-center justify-center">
 
                                         <div className="space-y-2">
-                                            <span className="block  h-[2px] w-8 origin-center bg-white transition-transform ease-in-out group-hover:translate-y-1 group-hover:rotate-45"></span>
+                                            <span className="block  h-[2px] w-8 origin-center bg-indigo-700 transition-transform ease-in-out group-hover:translate-y-1 group-hover:rotate-45"></span>
                                             <span className="block h-[2px] w-6 origin-center bg-orange-500 transition-transform ease-in-out group-hover:w-8 group-hover:-translate-y-1.5 group-hover:-rotate-45 ml-2 group-hover:ml-0"></span>
                                         </div>
                                     </div>
@@ -130,11 +146,11 @@ const NavBar = () => {
                                         <span className="uppercase text-[#FF8400] font-semibold opacity-60 tracking-widest">explore &nbsp; me</span>
 
                                         <ul className="flex flex-col gap-y-3 text-indigo-600 mt-7">
-                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">My Work</li>
+                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToHome}>Home</li>
                                             <hr />
-                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">My Self</li>
+                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToWork}>My Work</li>
                                             <hr />
-                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4">My Résumé</li>
+                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1a133a1bC6gFbsgh8ax4cTsHp-vJ_O12b/view?usp=sharing" target="_blank">My Résumé</a></li>
                                             <hr />
                                         </ul>
                                         <span className="uppercase text-[#FF8400] font-semibold opacity-60 mt-10 tracking-widest">Bid me hello</span>
