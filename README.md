@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Subhajit's Personal Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! Here you can find information about me, my projects, and get in touch with me directly. 
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**: Frontend library for building user interfaces.
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Framer Motion**: Animation library for React.
+- **Shadcn UI**:  Component library for React with a focus on accessibility.
+- **TypeScript**: Typed superset of JavaScript.
+- **JavaScript**: Programming language for web development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Modern Design**: The portfolio is designed to be modern and sleek, with smooth animations and cool effects.
+- **Information About Me**: Learn more about me, my skills, and my experiences.
+- **Projects Showcase**: Explore all my live running projects with descriptions and links.
+- **Direct Messaging**: Contact me directly through the portfolio for any inquiries or collaboration opportunities.
+- **Responsive**: Ensuring a smooth user experience across various devices and screen sizes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Run the development server using `npm run dev`.
+4. Explore my portfolio, view my projects, and feel free to send me a message!
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to reach out to me directly through:
+- Email: [📧 contact me](subhajit.chowhan.contact@gmail.com)
+- LinkedIn: [🔗 Linkedin Profile](www.linkedin.com/in/chowhansubhajit)
+- Twitter: [twittwr (X)](https://twitter.com/ChowhanSubhojit)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I'm looking forward to connecting with you!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
