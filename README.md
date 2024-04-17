@@ -33,6 +33,7 @@ Feel free to reach out to me directly through:
 - Email: [📧 contact me](subhajit.chowhan.contact@gmail.com)
 - LinkedIn: [🔗 Linkedin Profile](www.linkedin.com/in/chowhansubhajit)
 - Twitter: [twittwr (X)](https://twitter.com/ChowhanSubhojit)
+- Site id runing live: [😎 check it out! ](https://my-portfolio-site-rose.vercel.app)
 
 I'm looking forward to connecting with you!
 
