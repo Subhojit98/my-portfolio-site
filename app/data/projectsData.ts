@@ -16,14 +16,14 @@ const projectsList = [
         title: " The Recipe App",
         description: " web application designed to provide a simple and intuitive interface for users to discover and explore a wide variety of recipes based on their preferences with sorting feature",
         image: Project2,
-        url: "https://vercel.com/subhajits-projects-6e3cb8ac/recipe-app"
+        url: "https://recipe-app-ashen-pi.vercel.app"
     },
     {
         id: 3,
         title: " Imart-shop",
         description: " Imart E-Commerce App! This application is a modern e-commerce platform built specifically for Imart products .It provides users with a seamless shopping experience and incorporates various features to enhance usability and functionality",
         image: Project3,
-        url: "https://imart-shop-7hy6sq195-subhajits-projects-6e3cb8ac.vercel.app"
+        url: "https://imart-shop.vercel.app"
     },
     {
         id: 4,
