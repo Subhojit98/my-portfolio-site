@@ -9,28 +9,32 @@ const projectsList = [
         title: " Amea ,Holiday Homes To Stay ",
         description: "Welcome to Holiday Homes To Stay, a web application that helps you plan your holiday stay and make the most out of your time off.",
         image: Project1,
-        url: "https://holiday-homes-to-stay.vercel.app"
+        url: "https://holiday-homes-to-stay.vercel.app",
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDSop2KTFSMbRTsUYpgMop2KMUwGU3FSYpMUwI8UmKk20baAI8UmKk20m2kAzFLinbaXbQA3FLil20uKQCClFLilxQAUUuKXFACUUuKKAH4oxT8UYpAMxRin4oxTAZik21JijbTAj20bal20baBEO2jbU22jbTAg20bam20baQEO2jbU22jbQMh20u2pdtJtpAR7aMVJtoxQAzFGKdijFADcUU7FFAEmKMUtFIBMUuKWlpgNxS4paXFMQmKNtOxS4oAZtpdtPxS4oAj20bakxRigCLbRtqTFGKAIttJipMUhFIYzFJinkU00ANxSYp1JQAmKKWigB1FNzS5oAdS03NLmgB1KKaDThTEOFLTRThQAtFFLQAUUUUAJSUtIaAENNNONNNAxDTTSk00mkAhpKCaTNABRSZooAM0uajzS5oAfmnA1GDTgaYDwacDUYNOBoAkBpwNRg04GgB+aXNNozQA7NGaTNGaADNITRmmk0ABNNJpSaYTQAE00mgmmk0ABNNzSE0maAHZopmaKAFzRSUtAhRThTRThQMcKcKaKcKAHCnCminCkAopaSloAWkoooAKaaU0hpiGmmmnGmGgBppppxppoAaabSmkNAwopKKAP//Z"
     },
     {
         id: 2,
         title: " The Recipe App",
         description: " web application designed to provide a simple and intuitive interface for users to discover and explore a wide variety of recipes based on their preferences with sorting feature",
         image: Project2,
-        url: "https://recipe-app-ashen-pi.vercel.app"
+        url: "https://recipe-app-ashen-pi.vercel.app",
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDapaMUuKAEpaKWgApaSloAUUtJS0ALS0lFIYtJRRQAhpppxppoAaaYaeaYaYDDTDTzUZpiGmmmnGmGqEFFJRQBo4oxTsUYqBjcUU7FJQAUUUUDFopKWgBaKSikAtFJmikMDTTS000AIaYacaaaYhhphpxphpgNNNNONMNUIKKSigDWxRiloqRjaSnUlACUlLSUAFFFJSAWikopDFopKKQBSGikNACGmGnGmmgBhphp5qM1SENNNNONMNUAUUlFMRsUUlFSMKSlpKAEpKWkoASilpKQwooopAFFFFIBKQ0tIaAGmmmnGmmgCM0w1IaYaYhhpppxppqgG0UtFMDVopKKQhaSikoGLSUUUgCiiigYUUUtACUlLRSASmmnUhoEMNNNPNMNADDTDTzTTTAjNIacaaaYCUUUUAaVFFFAgooooAKKKKQwoopaACiiigYUlLSUCEpDS0hoAaaYaeaYaAGmmGnmmGgBhpppxpDTASiiigD/2Q=="
     },
     {
         id: 3,
         title: " Imart-shop",
         description: " Imart E-Commerce App! This application is a modern e-commerce platform built specifically for Imart products .It provides users with a seamless shopping experience and incorporates various features to enhance usability and functionality",
         image: Project3,
-        url: "https://imart-shop.vercel.app"
+        url: "https://imart-shop.vercel.app",
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDapaMUuKAEpaKWgApaSloAUUtJS0ALS0lFIYtJRRQAhpppxppoAaaYaeaYaYDDTDTzUZpiGmmmnGmGqEFFJRQBo4oxTsUYqBjcUU7FJQAUUUUDFopKWgBaKSikAtFJmikMDTTS000AIaYacaaaYhhphpxphpgNNNNONMNUIKKSigDWxRiloqRjaSnUlACUlLSUAFFFJSAWikopDFopKKQBSGikNACGmGnGmmgBhphp5qM1SENNNNONMNUAUUlFMRsUUlFSMKSlpKAEpKWkoASilpKQwooopAFFFFIBKQ0tIaAGmmmnGmmgCM0w1IaYaYhhpppxppqgG0UtFMDVopKKQhaSikoGLSUUUgCiiigYUUUtACUlLRSASmmnUhoEMNNNPNMNADDTDTzTTTAjNIacaaaYCUUUUAaVFFFAgooooAKKKKQwoopaACiiigYUlLSUCEpDS0hoAaaYaeaYaAGmmGnmmGgBhpppxpDTASiiigD/2Q=="
     },
     {
         id: 4,
         title: " Artify app",
         description: " The website allows users to search for articles and podcasts, view them according to their preferences, and includes pagination for both sections",
         image: Project4,
-        url: "https://my-bloggify-app.vercel.app"
+        url: "https://my-bloggify-app.vercel.app",
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDdopaKAEopcUuKAG0UuKXFACUUuKMUAJRS4oxQAlFLijFAxKSnYoxSAbRS4ooASilxSUxBSUtFACUUtFAh+KMU7FGKBjcUYp2KMUANxRinYoxTAbilxTsUYoAbijFOxRikA3FGKdijFAxuKTFPxRigBmKMU7FGKAGYoxTsUYoENxSU7FGKAG0U6igB9FLRQAlLRRTAMUYpaKADFGKWigBMUuKXFLigBuKMU7FGKQDMUYp2KMUDGYoxTsUlADcUlOpKBCUlLRTASilooAWikzRmkA6ikzRQA6lptLQA6ikpaYC0tJS0gCilooASkp1JQA2kNONNNACUlKaaaACkopKACiiigBM0ZpuaXNADs0uaZmnZoAdmlBpopRQA8UopopRQA6lpBS0ALRRRQAUlLSUAIaaacaaaAENNNKaaaAENJSmm0ALRSUUDG0UUUCFpRSUooAcKUU0U4UAOFOFNFOFACilpBS0ALS0lLQAlFFFADTSGlNIaAGmmmnGmmgBppKU02gYUUUUAf//Z"
     },
 ]
 
