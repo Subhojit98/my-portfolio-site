@@ -12,7 +12,7 @@ const MobileView = () => {
 
                     {
                         projectsList.map((project, i) => {
-                            const { id, description, image, title, url } = project
+                            const { id, description, image, title, url,blurUrl } = project
                             return <div key={i}>
                                 <div className="sm:flex w-full">
                                     <span className="mb-5 text-lg">0{id}</span>
@@ -23,7 +23,7 @@ const MobileView = () => {
 
                                 <div className="w-52 h-[30vh] rounded-lg border mt-10 sm:mt-0">
                                     <a href={url} >
-                                        <Image src={image} alt="project image" className="w-full h-full object-cover rounded-lg" />
+                                        <Image src={image} alt="project image" className="w-full h-full object-cover rounded-lg" placeholder="blur" blurDataURL={blurUrl}/>
                                     </a>
                                 </div>
                             </div>
