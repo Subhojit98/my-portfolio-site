@@ -17,7 +17,7 @@ const projectsList = [
         title: " The Recipe App",
         description: " web application designed to provide a simple and intuitive interface for users to discover and explore a wide variety of recipes based on their preferences with sorting feature",
         image: Project2,
-        url: "https://recipe-app-ashen-pi.vercel.app",
+        url: "https://wiskitfood.vercel.app",
         blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDapaMUuKAEpaKWgApaSloAUUtJS0ALS0lFIYtJRRQAhpppxppoAaaYaeaYaYDDTDTzUZpiGmmmnGmGqEFFJRQBo4oxTsUYqBjcUU7FJQAUUUUDFopKWgBaKSikAtFJmikMDTTS000AIaYacaaaYhhphpxphpgNNNNONMNUIKKSigDWxRiloqRjaSnUlACUlLSUAFFFJSAWikopDFopKKQBSGikNACGmGnGmmgBhphp5qM1SENNNNONMNUAUUlFMRsUUlFSMKSlpKAEpKWkoASilpKQwooopAFFFFIBKQ0tIaAGmmmnGmmgCM0w1IaYaYhhpppxppqgG0UtFMDVopKKQhaSikoGLSUUUgCiiigYUUUtACUlLRSASmmnUhoEMNNNPNMNADDTDTzTTTAjNIacaaaYCUUUUAaVFFFAgooooAKKKKQwoopaACiiigYUlLSUCEpDS0hoAaaYaeaYaAGmmGnmmGgBhpppxpDTASiiigD/2Q=="
     },
     {
