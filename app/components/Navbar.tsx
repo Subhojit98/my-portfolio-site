@@ -96,7 +96,7 @@ const NavBar = () => {
                                         <hr />
                                         <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToWork}>My Work</li>
                                         <hr />
-                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1a133a1bC6gFbsgh8ax4cTsHp-vJ_O12b/view?usp=sharing" target="_blank">My Résumé</a></li>
+                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1HkkkgjGX2af5hJ9ZwKtv6QQuf4ZVqzvm/view?usp=drive_link" target="_blank">My Résumé</a></li>
                                         <hr />
                                     </ul>
                                     <span className="uppercase text-[#FF8400] font-semibold opacity-60 mt-10 tracking-widest">Bid me hello</span>
@@ -150,7 +150,7 @@ const NavBar = () => {
                                             <hr />
                                             <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToWork}>My Work</li>
                                             <hr />
-                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1a133a1bC6gFbsgh8ax4cTsHp-vJ_O12b/view?usp=sharing" target="_blank">My Résumé</a></li>
+                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1HkkkgjGX2af5hJ9ZwKtv6QQuf4ZVqzvm/view?usp=drive_link" target="_blank">My Résumé</a></li>
                                             <hr />
                                         </ul>
                                         <span className="uppercase text-[#FF8400] font-semibold opacity-60 mt-10 tracking-widest">Bid me hello</span>
