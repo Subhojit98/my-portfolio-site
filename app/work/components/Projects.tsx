@@ -13,7 +13,6 @@ const raleway = Raleway({ weight: "400", subsets: ["latin"] })
 const Projects = () => {
     return (
         <div className="w-full h-full mb-32 relative mt-40">
-
             <div className=" text-center flex flex-col gap-y-4 items-center">
                 <h1 className="text-3xl text-center text-gray-700 sm:text-4xl" style={rubik.style}> <span className="text-neutral-500" >/</span>Work <span className="text-neutral-500">.</span></h1>
                 <span className="text-sm sm:text-base w-11/12 text-neutral-700" style={chakra.style}>Selected work I&apos;ve taken on in the past. </span>
@@ -29,7 +28,7 @@ const Projects = () => {
 
                     {
                         projectsList.map((project, i) => {
-                            const { title, id, image, description, url,blurUrl } = project
+                            const { title, id, image, description, url, blurUrl } = project
                             return <div key={i} className={`flex justify-between ${id % 2 == 0 && "flex-row-reverse"}`}>
                                 <div className=" flex-col  w-[60%]">
 
@@ -55,7 +54,7 @@ const Projects = () => {
                                     className="w-52 md:w-60 lg:w-72 xl:w-96 h-[35vh] xl:h-[40vh]  rounded-lg  mt-10 sm:mt-0 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] cursor-pointer">
 
                                     <a href={url} target="_blank" rel="noopener noreferrer">
-                                        <Image src={image} alt="project image" className="w-full h-full object-contain rounded-lg" placeholder="blur" blurDataURL={blurUrl}/>
+                                        <Image src={image} alt="project image" className="w-full h-full object-contain rounded-lg" placeholder="blur" blurDataURL={blurUrl} />
                                     </a>
 
                                 </motion.div>
@@ -68,7 +67,7 @@ const Projects = () => {
 
             </main>
 
-        </div>
+        </div >
     )
 }
 
