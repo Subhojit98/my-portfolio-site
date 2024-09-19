@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import Patterns from "./Patterns"
-import MyImage from '@/app/assets/Images&Icons/portfolio image.webp'
+import MyImage from '@/app/assets/Images&Icons/IMG_20240214_151611~2.webp'
 import { useEffect, useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import Lenis from '@studio-freight/lenis'
