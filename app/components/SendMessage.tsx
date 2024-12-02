@@ -23,7 +23,12 @@ const SendMessage = () => {
         message: z.string().min(10).max(200)
     })
 
-    const { register, handleSubmit, formState: { errors, isLoading, isSubmitSuccessful }, reset } = useForm({ resolver: zodResolver(messageShema) })
+    const { register, handleSubmit, formState: { errors, isLoading, isSubmitSuccessful }, reset } = useForm(
+        {
+            resolver: zodResolver(messageShema),
+            mode: "onSubmit"
+        }
+    )
 
     const onSubmit = (data: any) => {
         sendEmail(data)
@@ -63,7 +68,7 @@ const SendMessage = () => {
                     </motion.div>
 
                     <form
-                        onClick={handleSubmit(onSubmit)}
+                        onSubmit={handleSubmit(onSubmit)}
 
                         className="w-full flex flex-col gap-10 xl:mt-10">
 
@@ -117,8 +122,6 @@ const SendMessage = () => {
                                     <span className="relative text-sm font-light tracking-widest uppercase">Shoot </span>
                                     <svg width="40" height="22" viewBox="0 0 72 22" xmlns="http://www.w3.org/2000/svg" ><path fill="none" stroke="#4831d4" strokeWidth="2" strokeMiterlimit="0" d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"></path></svg>
                                 </div>
-
-
                             }
 
 
