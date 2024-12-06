@@ -3,7 +3,7 @@ import Project1 from '@/app/assets/Images&Icons/project amea.gif'
 import Project2 from '@/app/assets/Images&Icons/food.gif'
 import Project3 from '@/app/assets/Images&Icons/project imart.gif'
 import Project4 from '@/app/assets/Images&Icons/project article.gif'
-import Project5 from '@/app/assets/Images&Icons/Screenshot from 2024-08-16 02-00-23.png'
+import Project5 from '@/app/assets/Images&Icons/Screencastfrom2024-12-0612-34-02-ezgif.com-video-to-gif-converter.gif'
 const projectsList = [
     {
         id: 1,
