@@ -1,6 +1,6 @@
 # Subhajit's Personal Portfolio
 
-Welcome to my personal portfolio! Here you can find information about me, my projects, and get in touch with me directly. 
+Welcome to my personal portfolio! Here you can find information about me, my projects, and get in touch with me directly. This site is made with good industry practice and the performance in mind.
 
 ## Technologies Used
 
@@ -20,6 +20,16 @@ Welcome to my personal portfolio! Here you can find information about me, my pro
 - **Direct Messaging**: Contact me directly through the portfolio for any inquiries or collaboration opportunities.
 - **Responsive**: Ensuring a smooth user experience across various devices and screen sizes.
 
+- 
+## Demo shorts
+![Home Page](https://raw.githubusercontent.com/Subhojit98/my-portfolio-site/refs/heads/master/app/assets/Images%26Icons/Screenshot%20from%202024-12-06%2012-06-56.png)
+
+![work section](https://raw.githubusercontent.com/Subhojit98/my-portfolio-site/refs/heads/master/app/assets/Images%26Icons/Screenshot%20from%202024-12-06%2012-08-02.png)
+
+![Performence View](https://raw.githubusercontent.com/Subhojit98/my-portfolio-site/refs/heads/master/app/assets/Images%26Icons/Screenshot%20from%202024-12-06%2012-16-21.png)
+
+
+
 ## Usage
 
 1. Clone this repository.
@@ -33,7 +43,7 @@ Feel free to reach out to me directly through:
 - Email: [📧 contact me](subhajit.chowhan.contact@gmail.com)
 - LinkedIn: [🔗 Linkedin Profile](www.linkedin.com/in/chowhansubhajit)
 - Twitter: [twittwr (X)](https://twitter.com/ChowhanSubhojit)
-- Site id runing live: [😎 check it out! ](https://my-portfolio-site-rose.vercel.app)
+- Site is runing live: [😎 check it out! ](https://my-portfolio-site-rose.vercel.app)
 
 I'm looking forward to connecting with you!
 
