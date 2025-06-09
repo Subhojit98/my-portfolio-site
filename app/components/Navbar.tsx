@@ -96,7 +96,7 @@ const NavBar = () => {
                                         <hr />
                                         <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToWork}>My Work</li>
                                         <hr />
-                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1szArJBl3FyX_rD0jdiw60aYop6FcFH0c/view?usp=sharing" target="_blank">My Résumé</a></li>
+                                        <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1Y1yyeJ1HrUa13VFDN5P0PvGEZY4wh5_m/view?usp=sharing" target="_blank">My Résumé</a></li>
                                         <hr />
                                     </ul>
                                     <span className="uppercase text-[#FF8400] font-semibold opacity-60 mt-10 tracking-widest">Bid me hello</span>
@@ -150,7 +150,7 @@ const NavBar = () => {
                                             <hr />
                                             <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4" onClick={pushToWork}>My Work</li>
                                             <hr />
-                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1szArJBl3FyX_rD0jdiw60aYop6FcFH0c/view?usp=sharing" target="_blank">My Résumé</a></li>
+                                            <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer hover:ml-4"><a href="https://drive.google.com/file/d/1Y1yyeJ1HrUa13VFDN5P0PvGEZY4wh5_m/view?usp=sharing" target="_blank">My Résumé</a></li>
                                             <hr />
                                         </ul>
                                         <span className="uppercase text-[#FF8400] font-semibold opacity-60 mt-10 tracking-widest">Bid me hello</span>
