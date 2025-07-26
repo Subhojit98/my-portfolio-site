@@ -1,50 +1,65 @@
+import Project1 from '@/app/assets/Images&Icons/project shortyfy.gif'
+import Project2 from '@/app/assets/Images&Icons/trends.gif'
 
-import Project1 from '@/app/assets/Images&Icons/project amea.gif'
-import Project2 from '@/app/assets/Images&Icons/food.gif'
-import Project3 from '@/app/assets/Images&Icons/project imart.gif'
-import Project4 from '@/app/assets/Images&Icons/project article.gif'
-import Project5 from '@/app/assets/Images&Icons/trends.gif'
+import Project3 from '@/app/assets/Images&Icons/food.gif'
+import Project4 from '@/app/assets/Images&Icons/project imart.gif'
+import Project5 from '@/app/assets/Images&Icons/project article.gif'
+import Project6 from '@/app/assets/Images&Icons/project amea.gif'
+
 const projectsList = [
+
+        {
+
+        id: 1,
+        title: "Shortyfy - Advanced URL Shortener",
+        description: "Shortyfy is a full-stack advanced URL shortener that combines link management with authentication, email verification, and analytics. It allows users to create custom short links with titles, track total clicks, view last visit data, generate QR codes, and visualize performance through interactive charts. The application features secure session handling with JWT, password management via email links, and a modern UI that supports search, pagination, and responsive tables. Built with React 19, Next.js 15, TypeScript, TailwindCSS, shadcn, and MongoDB, Shortyfy provides a scalable and user-friendly solution for managing and analyzing URLs efficiently.",
+        image: Project1,
+        url: "https://fullstack-url-shortner.vercel.app",
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABTAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDjaWkp6ikUIBTwtOValVKQiILTglTCOniOnYRXCGnbDVkR04RUCKmw0uw1b8ql8qgCnsNGw1c8qjyqYFLYaTZV0xU0xUgKZSkK1bMdNMdFhlQrTSKtFKjKUrAQEU2pmWoyKAG0UUUwEFSoKjUc1Ogp2C5Ii1Mq01BU6LQAKlSKlOValVaAGCOnCOpVWpAlAEAjpfLqwEp2ygCt5dJ5dWtlJsoAqmOmGOrZSmlKAKZSmMlW2Wo2WgCoyVEy1bZahdaAKrLUTCrLioGFFgISKKcRRSsMavWp0FQr1qdK0aJROgqwgqBKsJUjJkFTKKiSpVoAkUVIBTFqQGkAoFOxSA06gBMUmKdSE0ANIphFPJpppgRMKiYVM1RNQBAwqFxU71C9AFdxUDirD1A9AEJopxop2GMWpkqIVItUyEWENToarKalVqkotKalVqqq9Sq9IC0rU8NVUPTw9AFoNS7qrCSl8ygCxuo3VB5lJ5lAExamFqjMlML0ASM1RM1NL0xnoAGNQsaczVEzUwGOahapGNRNTAYaKWimA2nA02iqEShqeHqDNLupWGWg9PElUvMpfNpWAvCSnCWqHne9Hn+9KwzR833o833rP8/3o+0e9FgNHzaTzaz/ALR70ef70WEX/N96Qy1R8/3o873osBcMlMMlVvNpPMosIsF6YWqHfRup2AeTTCaTNFMAooooAbRRRTASkNFFMY00lFFAwpKKKACiiigQUlFFAhaM0UUDFBpwoooEOpaKKQhaWiikAUUUUAf/2Q=="
+    },
+
+        {
+        id: 4,
+        title: " Trends Maker",
+        description: "TRENDS is a modern web application that allows users to create custom posts similar to those on Twitter. Designed to be user-friendly and highly customizable, TRENDS offers a range of features to help users present a professional appearance across social media platforms.",
+        image: Project2,
+        url: "https://trends-maker.vercel.app",
+        
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDdopaKAEopcUuKAG0UuKXFACUUuKMUAJRS4oxQAlFLijFAxKSnYoxSAbRS4ooASilxSUxBSUtFACUUtFAh+KMU7FGKBjcUYp2KMUANxRinYoxTAbilxTsUYoAbijFOxRikA3FGKdijFAxuKTFPxRigBmKMU7FGKAGYoxTsUYoENxSU7FGKAG0U6igB9FLRQAlLRRTAMUYpaKADFGKWigBMUuKXFLigBuKMU7FGKQDMUYp2KMUDGYoxTsUlADcUlOpKBCUlLRTASilooAWikzRmkA6ikzRQA6lptLQA6ikpaYC0tJS0gCilooASkp1JQA2kNONNNACUlKaaaACkopKACiiigBM0ZpuaXNADs0uaZmnZoAdmlBpopRQA8UopopRQA6lpBS0ALRRRQAUlLSUAIaaacaaaAENNNKaaaAENJSmm0ALRSUUDG0UUUCFpRSUooAcKUU0U4UAOFOFNFOFACilpBS0ALS0lLQAlFFFADTSGlNIaAGmmmnGmmgBppKU02gYUUUUAf//Z"
+    },
+
     {
         id: 1,
-        title: " Amea ,Holiday Homes To Stay ",
-        description: "Welcome to Holiday Homes To Stay, a web application that helps you plan your holiday stay and make the most out of your time off.",
-        image: Project1,
-        url: "https://holiday-homes-to-stay.vercel.app",
-        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDSop2KTFSMbRTsUYpgMop2KMUwGU3FSYpMUwI8UmKk20baAI8UmKk20m2kAzFLinbaXbQA3FLil20uKQCClFLilxQAUUuKXFACUUuKKAH4oxT8UYpAMxRin4oxTAZik21JijbTAj20bal20baBEO2jbU22jbTAg20bam20baQEO2jbU22jbQMh20u2pdtJtpAR7aMVJtoxQAzFGKdijFADcUU7FFAEmKMUtFIBMUuKWlpgNxS4paXFMQmKNtOxS4oAZtpdtPxS4oAj20bakxRigCLbRtqTFGKAIttJipMUhFIYzFJinkU00ANxSYp1JQAmKKWigB1FNzS5oAdS03NLmgB1KKaDThTEOFLTRThQAtFFLQAUUUUAJSUtIaAENNNONNNAxDTTSk00mkAhpKCaTNABRSZooAM0uajzS5oAfmnA1GDTgaYDwacDUYNOBoAkBpwNRg04GgB+aXNNozQA7NGaTNGaADNITRmmk0ABNNJpSaYTQAE00mgmmk0ABNNzSE0maAHZopmaKAFzRSUtAhRThTRThQMcKcKaKcKAHCnCminCkAopaSloAWkoooAKaaU0hpiGmmmnGmGgBppppxppoAaabSmkNAwopKKAP//Z"
-    },
-    {
-        id: 2,
         title: " The Recipe App",
         description: " web application designed to provide a simple and intuitive interface for users to discover and explore a wide variety of recipes based on their preferences with sorting feature",
-        image: Project2,
+        image: Project3,
         url: "https://wiskitfood.vercel.app",
         blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDapaMUuKAEpaKWgApaSloAUUtJS0ALS0lFIYtJRRQAhpppxppoAaaYaeaYaYDDTDTzUZpiGmmmnGmGqEFFJRQBo4oxTsUYqBjcUU7FJQAUUUUDFopKWgBaKSikAtFJmikMDTTS000AIaYacaaaYhhphpxphpgNNNNONMNUIKKSigDWxRiloqRjaSnUlACUlLSUAFFFJSAWikopDFopKKQBSGikNACGmGnGmmgBhphp5qM1SENNNNONMNUAUUlFMRsUUlFSMKSlpKAEpKWkoASilpKQwooopAFFFFIBKQ0tIaAGmmmnGmmgCM0w1IaYaYhhpppxppqgG0UtFMDVopKKQhaSikoGLSUUUgCiiigYUUUtACUlLRSASmmnUhoEMNNNPNMNADDTDTzTTTAjNIacaaaYCUUUUAaVFFFAgooooAKKKKQwoopaACiiigYUlLSUCEpDS0hoAaaYaeaYaAGmmGnmmGgBhpppxpDTASiiigD/2Q=="
     },
     {
-        id: 3,
+        id: 2,
         title: " Imart-shop",
         description: " Imart E-Commerce App! This application is a modern e-commerce platform built specifically for Imart products .It provides users with a seamless shopping experience and incorporates various features to enhance usability and functionality",
-        image: Project3,
+        image: Project4,
         url: "https://imart-shop.vercel.app",
         blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDapaMUuKAEpaKWgApaSloAUUtJS0ALS0lFIYtJRRQAhpppxppoAaaYaeaYaYDDTDTzUZpiGmmmnGmGqEFFJRQBo4oxTsUYqBjcUU7FJQAUUUUDFopKWgBaKSikAtFJmikMDTTS000AIaYacaaaYhhphpxphpgNNNNONMNUIKKSigDWxRiloqRjaSnUlACUlLSUAFFFJSAWikopDFopKKQBSGikNACGmGnGmmgBhphp5qM1SENNNNONMNUAUUlFMRsUUlFSMKSlpKAEpKWkoASilpKQwooopAFFFFIBKQ0tIaAGmmmnGmmgCM0w1IaYaYhhpppxppqgG0UtFMDVopKKQhaSikoGLSUUUgCiiigYUUUtACUlLRSASmmnUhoEMNNNPNMNADDTDTzTTTAjNIacaaaYCUUUUAaVFFFAgooooAKKKKQwoopaACiiigYUlLSUCEpDS0hoAaaYaeaYaAGmmGnmmGgBhpppxpDTASiiigD/2Q=="
     },
     {
-        id: 4,
+        id: 3,
         title: " Artify app",
         description: " The website allows users to search for articles and podcasts, view them according to their preferences, and includes pagination for both sections",
-        image: Project4,
+        image: Project5,
         url: "https://my-bloggify-app.vercel.app",
         blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDdopaKAEopcUuKAG0UuKXFACUUuKMUAJRS4oxQAlFLijFAxKSnYoxSAbRS4ooASilxSUxBSUtFACUUtFAh+KMU7FGKBjcUYp2KMUANxRinYoxTAbilxTsUYoAbijFOxRikA3FGKdijFAxuKTFPxRigBmKMU7FGKAGYoxTsUYoENxSU7FGKAG0U6igB9FLRQAlLRRTAMUYpaKADFGKWigBMUuKXFLigBuKMU7FGKQDMUYp2KMUDGYoxTsUlADcUlOpKBCUlLRTASilooAWikzRmkA6ikzRQA6lptLQA6ikpaYC0tJS0gCilooASkp1JQA2kNONNNACUlKaaaACkopKACiiigBM0ZpuaXNADs0uaZmnZoAdmlBpopRQA8UopopRQA6lpBS0ALRRRQAUlLSUAIaaacaaaAENNNKaaaAENJSmm0ALRSUUDG0UUUCFpRSUooAcKUU0U4UAOFOFNFOFACilpBS0ALS0lLQAlFFFADTSGlNIaAGmmmnGmmgBppKU02gYUUUUAf//Z"
     },
-    {
-        id: 5,
-        title: " Trends Maker",
-        description: "TRENDS is a modern web application that allows users to create custom posts similar to those on Twitter. Designed to be user-friendly and highly customizable, TRENDS offers a range of features to help users present a professional appearance across social media platforms.",
-        image: Project5,
-        url: "https://trends-maker.vercel.app",
-        
-        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDdopaKAEopcUuKAG0UuKXFACUUuKMUAJRS4oxQAlFLijFAxKSnYoxSAbRS4ooASilxSUxBSUtFACUUtFAh+KMU7FGKBjcUYp2KMUANxRinYoxTAbilxTsUYoAbijFOxRikA3FGKdijFAxuKTFPxRigBmKMU7FGKAGYoxTsUYoENxSU7FGKAG0U6igB9FLRQAlLRRTAMUYpaKADFGKWigBMUuKXFLigBuKMU7FGKQDMUYp2KMUDGYoxTsUlADcUlOpKBCUlLRTASilooAWikzRmkA6ikzRQA6lptLQA6ikpaYC0tJS0gCilooASkp1JQA2kNONNNACUlKaaaACkopKACiiigBM0ZpuaXNADs0uaZmnZoAdmlBpopRQA8UopopRQA6lpBS0ALRRRQAUlLSUAIaaacaaaAENNNKaaaAENJSmm0ALRSUUDG0UUUCFpRSUooAcKUU0U4UAOFOFNFOFACilpBS0ALS0lLQAlFFFADTSGlNIaAGmmmnGmmgBppKU02gYUUUUAf//Z"
+
+        {
+        id: 6,
+        title: " Amea ,Holiday Homes To Stay ",
+        description: "Welcome to Holiday Homes To Stay, a web application that helps you plan your holiday stay and make the most out of your time off.",
+        image: Project6,
+        url: "https://holiday-homes-to-stay.vercel.app",
+        blurUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCABaAKYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDSop2KTFSMbRTsUYpgMop2KMUwGU3FSYpMUwI8UmKk20baAI8UmKk20m2kAzFLinbaXbQA3FLil20uKQCClFLilxQAUUuKXFACUUuKKAH4oxT8UYpAMxRin4oxTAZik21JijbTAj20bal20baBEO2jbU22jbTAg20bam20baQEO2jbU22jbQMh20u2pdtJtpAR7aMVJtoxQAzFGKdijFADcUU7FFAEmKMUtFIBMUuKWlpgNxS4paXFMQmKNtOxS4oAZtpdtPxS4oAj20bakxRigCLbRtqTFGKAIttJipMUhFIYzFJinkU00ANxSYp1JQAmKKWigB1FNzS5oAdS03NLmgB1KKaDThTEOFLTRThQAtFFLQAUUUUAJSUtIaAENNNONNNAxDTTSk00mkAhpKCaTNABRSZooAM0uajzS5oAfmnA1GDTgaYDwacDUYNOBoAkBpwNRg04GgB+aXNNozQA7NGaTNGaADNITRmmk0ABNNJpSaYTQAE00mgmmk0ABNNzSE0maAHZopmaKAFzRSUtAhRThTRThQMcKcKaKcKAHCnCminCkAopaSloAWkoooAKaaU0hpiGmmmnGmGgBppppxppoAaabSmkNAwopKKAP//Z"
     },
 ]
 
