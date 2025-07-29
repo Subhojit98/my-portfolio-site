@@ -51,7 +51,7 @@ const Projects = () => {
                                 <motion.div
                                     whileHover={{ scale: [null, 1.3, 1.2] }}
                                     transition={{ duration: 0.3 }}
-                                    className="w-52 md:w-60 lg:w-72 xl:w-96 h-[35vh] xl:h-[40vh]  rounded-lg  mt-10 sm:mt-0 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] cursor-pointer">
+                                    className="w-52 md:w-60 lg:w-72 xl:w-96 h-[35vh] xl:h-[40vh]  rounded-lg  mt-10 sm:mt-0 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] cursor-pointer bg-slate-50 border-2 border-neutral-600">
 
                                     <a href={url} target="_blank" rel="noopener noreferrer">
                                         <Image src={image} alt="project image" className="w-full h-full object-contain rounded-lg" placeholder="blur" blurDataURL={blurUrl} />

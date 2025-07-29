@@ -78,14 +78,16 @@ const BrifDescription = () => {
                         className="md:w-[80%] md:flex">
                         <div className="w-[65%] mx-auto sm:w-[80%] xl:w-1/2 h-full md:py-20 flex flex-col items-start sm:gap-5 text-xs xl:text-base text-slate-100 mt-20 gap-3 tracking-wide" style={raleway.style}>
                             <h3 className="text-4xl font-bold text-[#c4f36e] xl:text-5xl" style={popins.style}>Over the <br /> years,</h3>
-                            <p>Using Frontend technologies and cutting-edge tools and libraries, I bring a fresh perspective to web development. These empower me to craft responsive, visually appealing and modern web experiences.</p>
-                            <p>I Created Modern and user-friendly websites, ensuring accessibility for everyone.</p>
+                            <p>I&apos;m a Frontend Developer skilled in building fast, user-friendly web applications using React.js, Next.js, and Tailwind CSS.</p>
 
-                            <p>Currently, I am seeking an internship to gain practical exposure, contribute to real-world projects, and learn from experienced professionals.</p>
+                            <p>I&apos;ve developed features like AI-powered chat interfaces, dashboards, and custom UI components in both internships and personal projects. I focus on performance, accessibility, and clean, maintainable code.</p>
 
-                            <p>My goal is to build accessible and modern websites that generate more profit and value for organizations, as well as for users.</p>
+                            <p>During my recent internship at 9AI, I contributed to real-world applications that improved user engagement and efficiency. I&apos;m comfortable working in agile environments and experienced with tools like Redux, TypeScript, and React Flow.</p>
 
-                            <p>I&apos;am enthusiastic about opportunities that allow me to harness fronted engineering skills,as well as new technologies. </p>
+                            <p>My recent projects include a full-stack URL shortener with analytics and domain support, an animated storytelling website using GSAP, and a resume-based job predictor tool. These demonstrate my ability to handle UI design, API integration, state management, and performance optimization across modern web apps.</p>
+
+                            <p>Currently, I&apos;m seeking a full-time frontend position where I can apply my skills, work on meaningful projects, and learn from experienced teams. I&apos;m passionate about crafting modern, accessible interfaces that deliver value to both users and businesses.</p>
+
 
                         </div>
                         <div className="w-full flex justify-center items-center sm:w-[80%] md:w-[95%] xl:w-[70%]">
