@@ -4,6 +4,7 @@ import MobileView from "./MobileView"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Chakra_Petch, Poppins, Raleway, Rubik } from "next/font/google"
+import { useRouter } from "next/navigation"
 const rubik = Rubik({ weight: "400", subsets: ["latin"] })
 const popins = Poppins({ weight: "400", subsets: ["latin"] })
 
@@ -11,8 +12,15 @@ const chakra = Chakra_Petch({ weight: "400", subsets: ["latin"] })
 const raleway = Raleway({ weight: "400", subsets: ["latin"] })
 
 const Projects = () => {
+    const router = useRouter()
     return (
         <div className="w-full h-full mb-32 relative mt-40">
+
+
+            <button className="flex m-auto mb-10 xl:ml-36" onClick={() => router.push("/")}>
+
+                <svg fill="#000000" viewBox="0 0 24 24" className="w-12 h-12" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M1.293,12.707a1,1,0,0,1,0-1.414l5-5A1,1,0,0,1,7.707,7.707L4.414,11H22a1,1,0,0,1,0,2H4.414l3.293,3.293a1,1,0,1,1-1.414,1.414Z"></path></g></svg>
+            </button>
             <div className=" text-center flex flex-col gap-y-4 items-center">
                 <h1 className="text-3xl text-center text-gray-700 sm:text-4xl" style={rubik.style}> <span className="text-neutral-500" >/</span>Work <span className="text-neutral-500">.</span></h1>
                 <span className="text-sm sm:text-base w-11/12 text-neutral-700" style={chakra.style}>Selected work I&apos;ve taken on in the past. </span>

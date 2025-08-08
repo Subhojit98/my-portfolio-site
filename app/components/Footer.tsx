@@ -41,7 +41,7 @@ const Footer = () => {
                                 >
                                     <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" onClick={() => router.push("/")}> Home</li>
                                     <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" onClick={() => router.push("/work")}> Work</li>
-                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> <a target="_blank" href={"https://drive.google.com/file/d/1a133a1bC6gFbsgh8ax4cTsHp-vJ_O12b/view?usp=sharing"}>Résumé</a></li>
+                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> <a target="_blank" href={"https://drive.google.com/file/d/1Ve5UEqU5OPFKSZ9IZuZ27dvSk6_DsYMF/view?usp=sharing"}>Résumé</a></li>
                                     <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" ><a target="_blank" href={"https://t.me/Subhojit_98"}>t.me/Subhojit_98</a></li>
                                 </ul>
                             </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                             <hr />
 
                             <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
-                                Copyright &copy; 2024. All rights reserved.
+                                Copyright &copy; 2025. All rights reserved.
                             </p>
                         </div>
 

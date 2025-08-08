@@ -7,7 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Subhajit's Portfolio",
   description: "Subhajit's Personal protfolio site",
-};
+  keywords: [
+    "Subhajit Chowhan",
+    "Portfolio",
+    "Web Developer",
+    "Software Engineer",
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Developer",
+  ],
+  icons: {
+    icon: "/favicon.ico"
+
+  }
+}
 
 export default function RootLayout({
   children,
