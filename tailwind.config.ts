@@ -40,6 +40,10 @@ const config = {
         smalltext: "#62427e",
         headtext:"#4831d4"
       }
+      ,
+      "rotate-y-180":{
+        transform: "rotateY(180deg)"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

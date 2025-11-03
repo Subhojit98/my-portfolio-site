@@ -1,10 +1,11 @@
 
 "use client"
 import { motion, useInView } from "framer-motion"
-import { Audiowide } from "next/font/google"
+import { Audiowide, Chakra_Petch } from "next/font/google"
 import { useRouter } from "next/navigation"
 import { useRef } from "react"
 const logoText = Audiowide({ weight: '400', subsets: ["latin"] })
+const subLogoText = Chakra_Petch({ weight: '400', subsets: ["latin"], style: ['normal'] })
 
 const Footer = () => {
     const ref = useRef(null)
@@ -26,10 +27,10 @@ const Footer = () => {
                             <div className="lg:flex lg:items-end lg:justify-between mb-10 xl:mb-20">
                                 <div>
                                     <div className="flex gap-10 justify-center xl:justify-start" style={logoText.style}>
-                                        <span className="text-[#c4f36e] font-extrabold leading-8 text-3xl">すbhjiト</span>
+                                        <span className="text-[#c4f36e] font-extrabold leading-8 text-3xl">すbhajiト</span>
                                     </div>
                                     <div>
-                                        <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400 lg:text-left ">
+                                        <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400 lg:text-left" style={subLogoText.style}>
                                             If you always do what you always did , you will always get what you always got!.
                                         </p>
                                     </div>
@@ -37,18 +38,18 @@ const Footer = () => {
 
 
                                 <ul
-                                    className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
+                                    className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12" style={subLogoText.style}
                                 >
                                     <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" onClick={() => router.push("/")}> Home</li>
                                     <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" onClick={() => router.push("/work")}> Work</li>
-                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> <a target="_blank" href={"https://drive.google.com/file/d/1Ve5UEqU5OPFKSZ9IZuZ27dvSk6_DsYMF/view?usp=sharing"}>Résumé</a></li>
+                                    <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200"> <a target="_blank" href={"https://drive.google.com/file/d/1HqTrokrOBUF7DNqMwlDIO4cmiA3CAtPg/view?usp=sharing"}>Résumé</a></li>
                                     <li className="hover:scale-110 duration-200 ease-in-out cursor-pointer text-slate-200" ><a target="_blank" href={"https://t.me/Subhojit_98"}>t.me/Subhojit_98</a></li>
                                 </ul>
                             </div>
                             <br />
                             <hr />
 
-                            <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
+                            <p className="mt-12 text-center text-sm text-gray-500 lg:text-right" style={subLogoText.style}>
                                 Copyright &copy; 2025. All rights reserved.
                             </p>
                         </div>

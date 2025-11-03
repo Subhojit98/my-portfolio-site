@@ -21,9 +21,10 @@ const Projects = () => {
 
                 <svg fill="#000000" viewBox="0 0 24 24" className="w-12 h-12" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M1.293,12.707a1,1,0,0,1,0-1.414l5-5A1,1,0,0,1,7.707,7.707L4.414,11H22a1,1,0,0,1,0,2H4.414l3.293,3.293a1,1,0,1,1-1.414,1.414Z"></path></g></svg>
             </button>
-            <div className=" text-center flex flex-col gap-y-4 items-center">
-                <h1 className="text-3xl text-center text-gray-700 sm:text-4xl" style={rubik.style}> <span className="text-neutral-500" >/</span>Work <span className="text-neutral-500">.</span></h1>
-                <span className="text-sm sm:text-base w-11/12 text-neutral-700" style={chakra.style}>Selected work I&apos;ve taken on in the past. </span>
+
+            <div className="text-center flex flex-col gap-y-4 items-center">
+                <h1 className="text-4xl text-center text-gray-700 sm:text-5xl" style={rubik.style}> <span className="text-neutral-500" >/</span>Work <span className="text-neutral-500">.</span></h1>
+                <span className="text-sm sm:text-base w-11/12 text-neutral-700" style={chakra.style}>Work that reflects how I think, build, and solve problems.</span>
             </div>
 
 
@@ -59,7 +60,7 @@ const Projects = () => {
                                 <motion.div
                                     whileHover={{ scale: [null, 1.3, 1.2] }}
                                     transition={{ duration: 0.3 }}
-                                    className="w-52 md:w-60 lg:w-72 xl:w-96 h-[35vh] xl:h-[40vh]  rounded-lg  mt-10 sm:mt-0 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] cursor-pointer bg-slate-50 border-2 border-neutral-600">
+                                    className="w-52 md:w-60 lg:w-72 xl:w-96 h-[35vh] xl:h-[40vh]  rounded-lg  mt-10 sm:mt-0 shadow-[5px_5px_rgba(4,_60,_236,_0.4),_10px_10px_rgba(4,_60,_236,_0.3),_15px_15px_rgba(4,_60,_236,_0.2),_20px_20px_rgba(4,_60,_236,_0.1),_25px_25px_rgba(4,_60,_236,_0.05)] cursor-pointer bg-slate-50 border-2 border-neutral-600">
 
                                     <a href={url} target="_blank" rel="noopener noreferrer">
                                         <Image src={image} alt="project image" className="w-full h-full object-contain rounded-lg" placeholder="blur" blurDataURL={blurUrl} />

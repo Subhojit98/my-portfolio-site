@@ -16,13 +16,13 @@ const Works = () => {
     return (
         <>
 
-            <div className="w-full h-[50vh]  mt-20 relative xl:h-[90vh] ">
+            <div className="w-full h-[50vh] mt-20 relative xl:h-[90vh]">
                 <Svgdesign />
                 <motion.div
                     ref={ref}
                     className="flex justify-center items-center h-full backdrop-blur-sm bg-white/5 sm:bg-white sm:backdrop-filter-none sm:w-[75%] m-auto">
 
-                    <section className="w-[80%] h-[80%] sm:w-[75%] text-xs p-5  xl:ml-14  z-50 ">
+                    <section className="w-[80%] h-[80%] sm:w-[75%] text-xs p-5  xl:ml-14 z-50 ">
                         <motion.div
                             initial={{ opacity: 0, y: 100 }}
                             transition={isInView ? { type: 'spring', stiffness: 200, damping: 10, duration: 0.4, delay: 0.5 } : {}}
