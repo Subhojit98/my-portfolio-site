@@ -92,7 +92,6 @@ const SendMessage = () => {
                                     Email Address
                                 </label>
                                 {errors.email && <span className=" text-red-500 text-xs">{errors.email.message as string}</span>}
-
                             </div>
 
                         </div>

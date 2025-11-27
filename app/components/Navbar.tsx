@@ -22,10 +22,10 @@ const NavBar = () => {
     const [scrollPercentage, setScrollPercentage] = useState<number>(0)
 
     const router = useRouter()
+
     const handleMenu = () => {
         setIsMenuClicked(!isMenuClicked)
         setIsMenuOpen(true)
-        console.log("clicked")
     }
 
 
